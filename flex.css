@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: solid 1px black;
+}
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header, footer {
+	width: 100%;
+}
+
+aside {
+	width: calc((100% - 700px) / 2 - 3px);
+}
+
+main {
+	width: 700px;
+}
+
+header, footer, aside {
+	height: 100px;
+}
